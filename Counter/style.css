@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(135deg, #2980b9, #7fffd4);
+    /* You can adjust the gradient colors and direction as needed */
+}
+
+#counterLabel {
+    display: block;
+    text-align: center;
+    font-size: 10cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white; /* Changing text color to make it visible on the dark background */
+}
+
+#btContainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #7fffd4;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.55s;
+}
+
+.buttons:hover {
+    background-color: rgba(2, 21, 34, 0.774);
+}
